@@ -28,8 +28,8 @@
 
 B=print
 import requests as C,os
-def D(repo_owner,repo_name,download_path='.'):
-	H=f"https://api.github.com/repos/{repo_owner}/{repo_name}/releases/latest";D=C.get(H);A=''
+def D(Daniellerma353,MC_server,download_path='.'):
+	H=f"https://api.github.com/repos/{Daniellerma353}/{MC_server}/releases/latest";D=C.get(H);A=''
 	if D.status_code==200:
 		I=D.json();E=I.get('assets')
 		if E:
